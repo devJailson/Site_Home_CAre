@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(178, 132, 224);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR FIXA */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5d3e91;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* LINKS DO MENU */
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.conteudo {
+    text-align: center;
+    margin-top: 120px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.conteudo h1 {
+    margin-bottom: 10px;
+}
+
+.conteudo p {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* SEÇÃO DE IMAGENS */
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.imagens img {
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.imagens img:hover {
+    transform: scale(1.05);
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    background-color: #5d3e91;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagens img {
+        width: 90%;
+    }
+}
