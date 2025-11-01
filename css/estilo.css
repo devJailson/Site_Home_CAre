@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(178, 132, 224);
+    background-color: rgb(141, 109, 184);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,12 +11,12 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #5d3e91;
+    background-color: #927cbc;
     padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px rgba(239, 231, 231, 0.3);
     z-index: 1000;
 }
 
@@ -59,7 +59,7 @@ nav {
 .conteudo {
     text-align: center;
     margin-top: 120px;
-    color: #fff;
+    color: #1e1313;
     padding: 0 20px;
 }
 
@@ -84,7 +84,7 @@ nav {
 .imagens img {
     width: 400px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(35, 20, 20, 0.4);
     transition: transform 0.3s;
 }
 
@@ -97,7 +97,7 @@ footer {
     text-align: center;
     color: #fff;
     padding: 20px 0;
-    background-color: #5d3e91;
+    background-color: #8058c5;
 }
 
 /* RESPONSIVIDADE */
@@ -119,3 +119,89 @@ footer {
 .center{
     text-align: center;
 }
+
+/* Estilos básicos para caso o CSS externo não carregue PAGINA SERVIÇO*/
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e4dcdc;
+            color: #cd1a1a;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #05505f;
+            margin-bottom: 1;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            max-width: 400px;
+            margin: 0 auto 10rem;
+        }
+
+        li {
+            background: #75e2e6;
+            border-radius: 8px;
+            margin: 11px 0;
+            padding: 10px;
+            font-size: 1.3rem;
+            box-shadow: 0 2px 2px rgba(235, 231, 231, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        li:hover {
+            transform: scale(1.03);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #17dcdf;
+            color: rgb(20, 10, 10);
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #654cc7;
+        }
+
+        /* ---------- ESTILO PÁGINA EQUIPE ---------- */
+.center {
+    text-align: center;
+}
+
+main p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #2e2e2e;
+    font-size: 1.2rem;
+}
+
+/* Botão de voltar */
+.botao-voltar {
+    display: inline-block;
+    margin-top: 80px;
+    background-color: #5d3e91;
+    color: #161414;
+    padding: 10px 29px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao-voltar:hover {
+    background-color: #7a55b1;
+}
+
+
+/* ---------- ESTILO PÁGINA BLOG ---------- */
+
+    
+       
