@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(141, 109, 184);
     font-family: Arial, sans-serif;
     margin: 0;
@@ -116,61 +116,62 @@ footer {
         width: 90%;
     }
 }
-.center{
+
+.center {
     text-align: center;
 }
 
 /* Estilos básicos para caso o CSS externo não carregue PAGINA SERVIÇO*/
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #e4dcdc;
-            color: #cd1a1a;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e4dcdc;
+    color: #cd1a1a;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
 
-        h1 {
-            color: #05505f;
-            margin-bottom: 1;
-        }
+h1 {
+    color: #05505f;
+    margin-bottom: 1;
+}
 
-        ul {
-            list-style: none;
-            padding: 0;
-            max-width: 400px;
-            margin: 0 auto 10rem;
-        }
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto 10rem;
+}
 
-        li {
-            background: #75e2e6;
-            border-radius: 8px;
-            margin: 11px 0;
-            padding: 10px;
-            font-size: 1.3rem;
-            box-shadow: 0 2px 2px rgba(235, 231, 231, 0.1);
-            transition: transform 0.2s ease;
-        }
+li {
+    background: #75e2e6;
+    border-radius: 8px;
+    margin: 11px 0;
+    padding: 10px;
+    font-size: 1.3rem;
+    box-shadow: 0 2px 2px rgba(235, 231, 231, 0.1);
+    transition: transform 0.2s ease;
+}
 
-        li:hover {
-            transform: scale(1.03);
-        }
+li:hover {
+    transform: scale(1.03);
+}
 
-        a {
-            display: inline-block;
-            text-decoration: none;
-            background-color: #17dcdf;
-            color: rgb(20, 10, 10);
-            padding: 10px 20px;
-            border-radius: 6px;
-            transition: background-color 0.3s;
-        }
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #17dcdf;
+    color: rgb(20, 10, 10);
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
 
-        a:hover {
-            background-color: #654cc7;
-        }
+a:hover {
+    background-color: #654cc7;
+}
 
-        /* ---------- ESTILO PÁGINA EQUIPE ---------- */
+/* ---------- ESTILO PÁGINA EQUIPE ---------- */
 .center {
     text-align: center;
 }
@@ -198,10 +199,37 @@ main p {
 
 .botao-voltar:hover {
     background-color: #7a55b1;
+
+
 }
 
 
 /* ---------- ESTILO PÁGINA BLOG ---------- */
+.pagina-blog {
 
+    background: #cec0e7;
     
-       
+    
+    .vermelho{
+        color: #cd1a1a;
+    }
+
+    .center{
+        text-align: center;
+    }
+    .preto{
+        color: #0d0b0b;
+    }
+    .fonte-30{
+
+        font-size: 30px;
+
+    }
+    #teste{
+        color: #140a3a;
+        background: rgb(155, 195, 205);
+    }
+    
+}
+.pagina-contato{
+}
