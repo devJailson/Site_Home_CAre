@@ -108,20 +108,20 @@ footer {
     }
 
     .menu {
+
         flex-wrap: wrap;
         justify-content: center;
+        .imagens img {
+            width: 90%;
+        }
     }
-
-    .imagens img {
-        width: 90%;
+    
+    .center {
+        text-align: center;
     }
 }
-
-.center {
-    text-align: center;
-}
-
-/* Estilos básicos para caso o CSS externo não carregue PAGINA SERVIÇO*/
+    
+    /* Estilos básicos para caso o CSS externo não carregue PAGINA SERVIÇO*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #e4dcdc;
@@ -205,31 +205,145 @@ main p {
 
 
 /* ---------- ESTILO PÁGINA BLOG ---------- */
-.pagina-blog {
 
-    background: #cec0e7;
-    
-    
-    .vermelho{
-        color: #cd1a1a;
-    }
-
-    .center{
-        text-align: center;
-    }
-    .preto{
-        color: #0d0b0b;
-    }
-    .fonte-30{
-
-        font-size: 30px;
-
-    }
-    #teste{
-        color: #140a3a;
-        background: rgb(155, 195, 205);
-    }
-    
+..pagina-blog {
+    background: rgb(155, 195, 205);
 }
-.pagina-contato{
+
+
+.pagina-blog .vermelho {
+    color: #cd1a1a;
+}
+
+.pagina-blog .center {
+    text-align: center;
+}
+
+.pagina-blog .preto {
+    color: #0d0b0b;
+}
+
+.pagina-blog .fonte-20 {
+    font-size: 20px;
+}
+
+.pagina-blog #teste {
+    color: #140a3a;
+}
+
+/* Se quiser estilizar a página de contato */
+.pagina-contato {
+    /* Adicione as propriedades desejadas aqui */
+}
+/* ======== ESTILO GERAL ======== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #e6ecf2;
+    color: #222;
+}
+
+h1, h2 {
+    color: #2c2a4a;
+}
+
+header {
+    background-color: #a79cd4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ======== SEÇÃO DE CONTATO ======== */
+.pagina-contato {
+    background-color: #9bc3cd;
+    padding: 20px;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+/* ======== FORMULÁRIO ======== */
+.form-contact {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-contact input,
+.form-contact textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-contact button {
+    background-color: #2c2a4a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-contact button:hover {
+    background-color: #4c4a7a;
+}
+
+/* ======== MAPA ======== */
+.map {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.map iframe {
+    width: 90%;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* ======== VOLTAR ======== */
+.voltar {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: #2c2a4a;
+    font-weight: bold;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+    background-color: #a79cd4;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
 }
